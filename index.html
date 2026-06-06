@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yong Chang Go — Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <img src="profile.jpg" alt="Yong Chang Go" class="profile-photo">
+                <h1>Yong Chang Go</h1>
+                <p class="tagline">Software Engineer — Semiconductor Manufacturing</p>
+                <div class="contact-info">
+                    <a href="mailto:ycgo711@icloud.com" aria-label="Email">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        ycgo711@icloud.com
+                    </a>
+                    <a href="tel:+6588817114" aria-label="Phone">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +65 8881 7114
+                    </a>
+                    <span class="location">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Singapore
+                    </span>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+            </nav>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About</h2>
+            <p class="about-text">
+                Software engineer with 3+ years of experience in semiconductor manufacturing IT, building 
+                automation tools, desktop applications, and web systems that support fab operations. Currently 
+                a Software Engineer at VSMC focused on engineering data analysis and defect management systems. 
+                Previously built MES-integrated tools at UMC handling real-time lot tracking, rack inventory, 
+                and legacy system migrations.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Software Engineer, Data Analysis Platform</h3>
+                        <p class="company">VisionPower Semiconductor Manufacturing Company (VSMC)</p>
+                    </div>
+                    <span class="date">Jun 2025 — Present</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Built a <strong>KLA Map-to-Map Data Watchdog</strong> in Python — an automated SPC pipeline that monitors active lots in real-time, calculates DC values via formula-driven SQL against KLA inspection data, and submits results to MES with Oracle audit logging and automated retry on failure</li>
+                    <li>Design and develop systems for fab engineering data analysis, defect management, and automated watchdog jobs</li>
+                    <li>Gather requirements directly from engineers and lead end-to-end system delivery — from design through deployment</li>
+                    <li>Evaluate and introduce new tooling to reduce manual data processing and improve operational efficiency</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Software Developer, Manufacturing Execution Systems</h3>
+                        <p class="company">United Microelectronics Corporation (UMC), Singapore Branch</p>
+                    </div>
+                    <span class="date">Feb 2023 — Jun 2025</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Developed the <strong>eRack Management System</strong> in C#/.NET (Windows Forms + Oracle SQL + multi-threading), enabling check-in/check-out tracking of racks and carriers with real-time MES integration for inventory accuracy</li>
+                    <li>Built an <strong>Automated WAT Rework and Backup System</strong> in C# integrated with Aegis and ADO.NET, automating lot verification, hold code management, and parameter modifications to reduce manual intervention — with enhanced error handling via automated email notifications, error holding lot, and hold comments</li>
+                    <li>Migrated the <strong>Reticle Management System</strong> from VB to C#/ASP.NET Web Forms, implementing AJAX partial updates and session management while maintaining full feature parity</li>
+                    <li>Maintained and enhanced existing MES applications, collaborating with production staff to diagnose issues and deploy fixes with minimal downtime</li>
+                </ul>
+            </div>
+
+            <div class="experience-item experience-item--compact">
+                <div class="experience-header">
+                    <div>
+                        <h3>IT Support Intern</h3>
+                        <p class="company">Vis-Dynamics Research Sdn Bhd, Malacca</p>
+                    </div>
+                    <span class="date">Mar — Jul 2021</span>
+                </div>
+                <p class="compact-description">Vendor IT support across networking and server infrastructure; implemented security hardening measures.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="skill-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">HTML/CSS/JavaScript</span>
+                        <span class="tag">VB.NET</span>
+                        <span class="tag">SAS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Frameworks</h4>
+                    <div class="skill-tags">
+                        <span class="tag">.NET Framework</span>
+                        <span class="tag">ASP.NET Web Forms</span>
+                        <span class="tag">Windows Forms</span>
+                        <span class="tag">ADO.NET</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Platforms</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Gitea</span>
+                        <span class="tag">Azure DevOps</span>
+                        <span class="tag">DBeaver</span>
+                        <span class="tag">Oracle SQL Developer</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Domain Expertise</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Semiconductor Manufacturing</span>
+                        <span class="tag">MES Integration</span>
+                        <span class="tag">SPC Data Pipelines</span>
+                        <span class="tag">Process Automation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Bachelor of Information Technology (Honours) — Artificial Intelligence</h3>
+                        <p class="company">Multimedia University (Malacca Campus), Malacca</p>
+                    </div>
+                    <span class="date">Jun 2018 — Sep 2022</span>
+                </div>
+                <p class="cgpa">CGPA: 3.36</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Yong Chang Go — Built with HTML & CSS</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
