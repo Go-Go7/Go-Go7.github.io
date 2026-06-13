@@ -50,4 +50,4 @@ Software engineer with 3+ years of experience building production automation sys
 
 ### Bachelor of Information Technology (Honours) — Artificial Intelligence
 **Multimedia University (Malacca Campus), Malacca**  
-June 2018 — September 2022 | CGPA: 3.36
+June 2018 — September 2022 | Second Class Upper (Honours)
