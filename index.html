@@ -52,11 +52,10 @@
         <section id="about" class="section">
             <h2 class="section-title">About</h2>
             <p class="about-text">
-                Software engineer with 3+ years of experience in semiconductor manufacturing IT, building 
-                automation tools, desktop applications, and web systems that support fab operations. Currently 
-                a Software Engineer at VSMC focused on engineering data analysis and defect management systems. 
-                Previously built MES-integrated tools at UMC handling real-time lot tracking, rack inventory, 
-                and legacy system migrations.
+                Software engineer with 3+ years of experience building production automation systems in 
+                semiconductor manufacturing — from real-time SPC watchdogs and defect management platforms 
+                to MES-integrated lot tracking tools. Focused on reducing manual engineering effort through 
+                end-to-end system delivery.
             </p>
         </section>
 
@@ -73,10 +72,12 @@
                     <span class="date">Jun 2025 — Present</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Build and maintain a <strong>KLA Map-to-Map Data Watchdog</strong> in Python — an automated SPC pipeline that monitors active lots in real-time, calculates DC values via formula-driven SQL against KLA inspection data, and submits results to MES with Oracle audit logging and automated retry on failure — processing ~10 lots/hour autonomously, saving an estimated 1.5–2 engineering hours per hour of operation</li>
-                    <li>Design and develop systems for fab engineering data analysis, defect management, and automated watchdog jobs</li>
-                    <li>Gather requirements directly from engineers and lead end-to-end system delivery — from design through deployment</li>
-                    <li>Evaluate and introduce new tooling to reduce manual data processing and improve operational efficiency</li>
+                    <li>Build and maintain a <strong>KLA Map-to-Map Data Watchdog</strong> in Python — an automated SPC pipeline that monitors active lots, calculates DC values via formula-driven SQL against KLA inspection data, and submits results to MES with Oracle audit logging and automated retry on failure
+                        <br><strong>Impact:</strong> Processing ~10 lots/hour autonomously, saving an estimated 1.5–2 engineering hours per hour of operation</li>
+                    <li>Maintain and enhance <strong>VEDA</strong>, a semiconductor engineering data analysis platform in C# (.NET WinForms + ASP.NET Web Services) with a 3-tier architecture, featuring cross-data-source correlation analysis (LQC, WAT, CP, SP, Lot History, FDC) with dynamic field mapping, and an interactive charting engine (trend, box plot, histogram, scatter, matrix) built on MS Chart Controls
+                        <br><strong>Impact:</strong> Enabling engineers to identify yield-impacting equipment and process parameters across fab sites</li>
+                    <li>Maintain and enhance a full-stack <strong>Defect Management System (DMS)</strong> in C# (.NET/WinForms) — a config UI (SetupUI) with RBAC, a defect review UI with real-time Oracle WIP queries for lot hold/track-out/highlight operations, and an automated background service (Spec Check AP) triggering highlight actions via NATS messaging
+                        <br><strong>Impact:</strong> Reducing manual review effort and improving defect response consistency across KLA, OM, SEMV, and ADC inspection equipment types</li>
                 </ul>
             </div>
 
@@ -89,22 +90,14 @@
                     <span class="date">Feb 2023 — Jun 2025</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Migrated and enhanced the <strong>eRack Management System</strong> from a legacy ASP.NET web application to a C#/.NET Windows Forms desktop application with Oracle SQL and multi-threading — enabling real-time MES sync via transaction calling, reducing FOUP check-in/check-out time by ~50% compared to the manual process, and improving overall usability</li>
-                    <li>Built an <strong>Automated WAT Rework and Backup System</strong> in C# integrated with Aegis and ADO.NET, automating lot verification, hold code management, and parameter modifications — processing up to 50 lots/hour (vs ~30 minutes per lot manually), reducing issue-checking time by 80% through automated alarm email notifications, and eliminating manual errors</li>
-                    <li>Migrated the <strong>Reticle Management System</strong> from VB to C#/ASP.NET Web Forms, implementing AJAX partial updates and session management — improving overall application performance, usability, and boosting daily operation efficiency by ~30%</li>
+                    <li>Migrated and enhanced the <strong>eRack Management System</strong> from a legacy ASP.NET web application to C#/.NET Windows Forms with Oracle SQL and multi-threading for real-time MES sync via transaction calling
+                        <br><strong>Impact:</strong> Reduced FOUP check-in/check-out time by ~50% and improved overall usability</li>
+                    <li>Built an <strong>Automated WAT Rework and Backup System</strong> in C# integrated with Aegis and ADO.NET, automating lot verification, hold code management, and parameter modifications
+                        <br><strong>Impact:</strong> Processing up to 50 lots/hour (vs ~30 min/lot manually), reducing issue-checking time by 80% through automated alarm email notifications</li>
+                    <li>Migrated the <strong>Reticle Management System</strong> from VB to C#/ASP.NET Web Forms, implementing AJAX partial updates and session management
+                        <br><strong>Impact:</strong> Improved application performance and boosted daily operation efficiency by ~30%</li>
                     <li>Maintained and enhanced existing MES applications, collaborating with production staff to diagnose issues and deploy fixes with minimal downtime</li>
                 </ul>
-            </div>
-
-            <div class="experience-item experience-item--compact">
-                <div class="experience-header">
-                    <div>
-                        <h3>IT Support Intern</h3>
-                        <p class="company">Vis-Dynamics Research Sdn Bhd, Malacca</p>
-                    </div>
-                    <span class="date">Mar — Jul 2021</span>
-                </div>
-                <p class="compact-description">Vendor IT support across networking and server infrastructure; implemented security hardening measures.</p>
             </div>
         </section>
 
@@ -140,6 +133,13 @@
                         <span class="tag">Azure DevOps</span>
                         <span class="tag">DBeaver</span>
                         <span class="tag">Oracle SQL Developer</span>
+                        <span class="tag">NATS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Oracle</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -147,6 +147,7 @@
                     <div class="skill-tags">
                         <span class="tag">Semiconductor Manufacturing</span>
                         <span class="tag">MES Integration</span>
+                        <span class="tag">Engineering Data Analysis</span>
                         <span class="tag">SPC Data Pipelines</span>
                         <span class="tag">Process Automation</span>
                     </div>
