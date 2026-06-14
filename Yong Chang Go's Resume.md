@@ -1,3 +1,26 @@
+---
+pdf_options:
+  margin: 20mm
+---
+
+<style>
+img[alt="Profile Photo"] {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border: 3px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+</style>
+
 # Yong Chang Go — Resume
 
 <img src="profile.jpg" alt="Profile Photo" width="120" style="border-radius: 50%;" />
